@@ -1,7 +1,63 @@
 {
-  "name": "loopback-connector-crate",
-  "version": "1.0.0",
+  "_args": [
+    [
+      "loopback-connector-crate",
+      "/root/m2m_serv"
+    ]
+  ],
+  "_from": "loopback-connector-crate@latest",
+  "_id": "loopback-connector-crate@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/loopback-connector-crate",
+  "_npmUser": {
+    "email": "agung@jagad.co.id",
+    "name": "agungf"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {
+    "async": "0.9.2"
+  },
+  "_requested": {
+    "name": "loopback-connector-crate",
+    "raw": "loopback-connector-crate",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/loopback-connector-crate/-/loopback-connector-crate-1.0.0.tgz",
+  "_shasum": "331265fdb41e283a0b3e2e859a97fc934e32d34c",
+  "_shrinkwrap": null,
+  "_spec": "loopback-connector-crate",
+  "_where": "/root/m2m_serv",
+  "bugs": {
+    "url": "https://github.com/jagad/loopback-connector-crate/issues"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "cratejs": "^0.2.13",
+    "debug": "^2.1.1",
+    "loopback-connector": "1.x"
+  },
   "description": "Loopback Crate Connector",
+  "devDependencies": {
+    "bluebird": "^2.9.12",
+    "loopback-datasource-juggler": "^2.17.0",
+    "mocha": "^2.1.0",
+    "rc": "^0.6.0",
+    "should": "^5.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "331265fdb41e283a0b3e2e859a97fc934e32d34c",
+    "tarball": "https://registry.npmjs.org/loopback-connector-crate/-/loopback-connector-crate-1.0.0.tgz"
+  },
+  "gitHead": "6d0110e1b4ddaca2809cb05d16eba0b3cc8e3cb7",
+  "homepage": "https://github.com/jagad/loopback-connector-crate",
   "keywords": [
     "StrongLoop",
     "LoopBack",
@@ -10,24 +66,21 @@
     "Connector"
   ],
   "main": "index.js",
+  "maintainers": [
+    {
+      "email": "agung@jagad.co.id",
+      "name": "agungf"
+    }
+  ],
+  "name": "loopback-connector-crate",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagad/loopback-connector-crate.git"
+  },
   "scripts": {
     "test": "mocha -R spec --timeout 10000 --require test/init.js test/crate.test.js"
   },
-  "dependencies": {
-    "async": "^0.9.0",
-    "cratejs": "^0.2.13",
-    "debug": "^2.1.1",
-    "loopback-connector": "1.x"
-  },
-  "devDependencies": {
-    "bluebird": "^2.9.12",
-    "loopback-datasource-juggler": "^2.17.0",
-    "mocha": "^2.1.0",
-    "rc": "^0.6.0",
-    "should": "^5.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jagad/loopback-connector-crate.git"
-  }
+  "version": "1.0.0"
 }
