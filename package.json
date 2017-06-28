@@ -1,8 +1,7 @@
 {
   "_args": [
     [
-      "loopback-connector-crate",
-      "/root/m2m_serv"
+      "loopback-connector-crate"
     ],
     [
       {
